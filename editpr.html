@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="sty.css">
+ <link rel="stylesheet" href="sty1.css">
+ <link rel="shortcut icon" href="https://github.com/GirishKumar-technogeek/Taranga-Farms-Dev/blob/main/favicon.png?raw=true" type="image/x-icon">
+ <title>Taranga Farms</title>
+
+<style>
+
+html, body {
+    
+    height: 100%;
+    margin:0px;
+	padding:0px;
+}
+
+.navbar {
+  padding: 0.5rem;
+
+  font-size:1rem;
+}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container" style="background-color:#003E00;  margin-left: auto;  margin-right: auto;  border: none;">
+
+    <div class="navbar-header">
+      <button class="navbar-toggler" data-toggle="open-navbar1">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="index.html"><img src="tar.png" height="70px" style="padding-left:0px;" /></a>
+    </div>
+
+    <div class="navbar-menu" id="open-navbar1">
+      <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">All Products</a></li>
+        <li><a href="orders.html">Your Orders</a></li>
+		    <li><a href="cart.html">Cart</a></li>
+        <li><a href="shpr.html">Your Profile</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br>
+
+<div class="row">
+  <div class="cen">
+    <div class="container">
+	<p style="font-size:2rem; text-align:center;">EDIT PROFILE</p>
+      <form action="shpr.html">
+      
+        <div class="row">
+          <div class="col-50">
+            <label for="fname"><i class="fa fa-user" style="color:;"></i> First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Name">
+			
+			<label for="fname"><i class="fa fa-user"></i> Last Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Name">
+			
+			<label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="name@example.com">
+			
+			<label for="fname"><i class="fa fa-phone"></i> Phone number</label>
+            <input type="text" id="fname" name="firstname" placeholder="Ph no">
+			
+            
+			<hr>
+						
+			
+		 
+          </div>
+
+          <div class="col-50">
+            
+			<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="1/7, 5th block, 10th st, T. Nagar">
+			
+			
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Chennai">
+
+			
+			 <div class="row">
+              <div class="col-50">
+                <label for="state"><i class="fa fa-map-pin"></i>State</label>
+                <input type="text" id="state" name="state" placeholder="Tamil Nadu">
+              </div>
+              <div class="col-50">
+                <label for="zip"><i class="fa fa-map-pin"></i>Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="600010">
+              </div>
+            </div>
+			
+			
+           
+			<label for="adr"><i class="fa fa-map-pin"></i> Landmark</label>
+            <input type="text" id="adr" name="address" placeholder="1/7, 5th block, 10th st, T. Nagar">
+			
+			
+			<hr>
+				
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+			
+           
+			
+          </div>
+          
+        </div>
+        
+        <a href="shpr.html"><input type="submit" value="VIEW PROFILE" class="btn"></a>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<br><br><br>
+<footer id="footer" class="footer">
+
+  <br>
+<h4 style="color: #FDB91D;">Feedback</h4><hr color:"white">
+<p><b>"Clear feedback is the cornerstone of improvement"</b>
+<i>- Sir David Brailsford, Ineos Grenadiers</i>
+</p>
+<p>We are ready to face brickbats as we are happy to receive bouquets.
+Please use the following means to reach us.
+
+</p><hr color:"white">
+
+<div class="">
+<div class="" style="color: #FDB91D;">
+  <p>Mobile / WhatsApp: +91 96633 77739</p>
+</div>
+<div class="" style="color: #FDB91D;">
+  <p>Email: farmstaranga@gmail.com</p>
+</div>
+<div class="" style="color: #FDB91D;">
+  <p>Farm Address: 23,2, Kammagondahalli, tavekere, Bengaluru, Karnataka 560015</p>
+</div>
+<div class="" style="color: #FDB91D;">
+  <p>Office Address : #1829, Ground Floor, 5th Cross Rd, opp. Navarang Park, D Block, Rajajinagar, Bengaluru, Karnataka 560010</p>
+</div>
+</div>
+
+</footer>
+
+<script src="sty.js"></script>
+
+</body>
+</html>
